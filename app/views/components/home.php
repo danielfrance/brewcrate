@@ -37,18 +37,18 @@
 				<div id="how" class="wrapper ">
 					<div class="wrapper ui grid three column">
 						<div class="column">
-							<h2><i class="fa fa-beer text_brown"></i></h2>
-							<h2 class="text_brown">Item1</h2>
+							<h2 class="text_center"><i class="fa fa-beer text_brown "></i></h2>
+							<h2 class="text_brown text_center">Item1</h2>
 							<p> ribs beef ribs cupim, flank leberkas tail cow bacon strip steak. Short loin jerky pork spare ribs kielbasa jowl shoulder andouille ball tip filet mignon.</p>
 						</div>
 						<div class="column">
-							<h2><i class="fa fa-heart text_brown"></i></h2>
-							<h2 class="text_brown">Item2</h2>
+							<h2 class="text_center"><i class="fa fa-heart text_brown "></i></h2>
+							<h2 class="text_brown text_center">Item2</h2>
 							<p> ribs beef ribs cupim, flank leberkas tail cow bacon strip steak. Short loin jerky pork spare ribs kielbasa jowl shoulder andouille ball tip filet mignon.</p>
 						</div>
 						<div class="column">
-							<h2><i class="fa fa-bullseye text_brown"></i></h2>
-							<h2 class="text_brown">Item3</h2>
+							<h2 class="text_center"><i class="fa fa-bullseye text_brown"></i></h2>
+							<h2 class="text_brown text_center">Item3</h2>
 							<p> ribs beef ribs cupim, flank leberkas tail cow bacon strip steak. Short loin jerky pork spare ribs kielbasa jowl shoulder andouille ball tip filet mignon.</p>
 						</div>
 
@@ -60,12 +60,49 @@
 
 			</div>
 
-
-
-
-
 		</div>
 
+
+	</section>
+	<section class="buffer"></section>
+	<section class="red_bg">
+		<div class="max_wrapper">
+			<div class="wrapper">
+				<div class='ui three column grid'>
+					<div class="sitemap column">
+						<ul>
+							<li><a href="/signup">Sign Up</a></li>
+							<li><a href="/privacy">Privacy Policy</a></li>
+							<li><a href="/terms">Terms of Service</a></li>
+						</ul>
+					</div>
+					<div id="newsletter" class='column'>
+						<form class="ui form" method="post" >
+							<input type="hidden" name='honeypot'>
+							<input type="text" name='email' placeholder='Your Email'>
+							<input type='submit' value="Submit">
+						</form>
+
+					</div>
+					<div class='column contact_us'>
+						
+						<ul>Reach out to us! We want to hear from you.
+							<li class="inline_block"><i class='fa fa-facebook text_white'></i></li>
+							<li class="inline_block"><i class='fa fa-twitter text_white'></i></li>
+							<li class="inline_block"><i class='fa fa-instagram text_white'></i></li>
+
+						</ul>
+
+					</div>
+					
+
+				</div>
+			</div>
+			<div>
+				<p class='text_white text_center'>&#169;BrewCraft</p>
+			</div>
+
+		</div>
 
 	</section>
 </div>

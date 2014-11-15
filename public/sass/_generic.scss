@@ -125,6 +125,7 @@ form{
 .mobile { display: none; }
 .non_mobile { display: initial;}
 .inline_block {@include inline_block;}
+.inline{display:inline}
 .block{display:block;}
 .clearfix{clear:both}
 .margin_zero{margin:0}
