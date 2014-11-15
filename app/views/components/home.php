@@ -69,29 +69,33 @@
 		<div class="max_wrapper">
 			<div class="wrapper">
 				<div class='ui three column grid'>
-					<div class="sitemap column">
+					<div class="sitemap column margin_zero">
 						<ul>
 							<li><a href="/signup">Sign Up</a></li>
 							<li><a href="/privacy">Privacy Policy</a></li>
 							<li><a href="/terms">Terms of Service</a></li>
 						</ul>
 					</div>
-					<div id="newsletter" class='column'>
-						<form class="ui form" method="post" >
+					<div id="newsletter" class='column margin_zero'>
+						<form class="ui form" method="post" style='padding-top:1.25em'>
 							<input type="hidden" name='honeypot'>
 							<input type="text" name='email' placeholder='Your Email'>
 							<input type='submit' value="Submit">
 						</form>
 
 					</div>
-					<div class='column contact_us'>
-						
-						<ul>Reach out to us! We want to hear from you.
-							<li class="inline_block"><i class='fa fa-facebook text_white'></i></li>
-							<li class="inline_block"><i class='fa fa-twitter text_white'></i></li>
-							<li class="inline_block"><i class='fa fa-instagram text_white'></i></li>
+					<div class='column contact_us margin_zero'>
+						<div class="text_right">
+							<p class="text_white">Reach out to us! </p>
+							<ul class="">
+								<li class="inline_block"><i class='fa fa-facebook text_white'></i></li>
+								<li class="inline_block"><i class='fa fa-twitter text_white'></i></li>
+								<li class="inline_block"><i class='fa fa-instagram text_white'></i></li>
 
-						</ul>
+							</ul>
+
+						</div>
+						
 
 					</div>
 					

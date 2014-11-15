@@ -49,7 +49,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'trade_me',
+			'database'  => 'brew_crate',
 			'username'  => 'admin',
 			'password'  => 'RedBr1ck7',
 			'charset'   => 'utf8',
