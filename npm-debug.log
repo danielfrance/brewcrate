@@ -1,0 +1,147 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'jquery.scrollto' ]
+2 info using npm@1.4.14
+3 info using node@v0.11.14-pre
+4 warn package.json childrens-hospital@0.1.0 No repository field.
+5 warn package.json jquery.scrollto@1.4.13 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'jquery.scrollto', null ]
+8 verbose cache add name=undefined spec="jquery.scrollto" args=["jquery.scrollto",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'jquery.scrollto',
+9 verbose parsed url   path: 'jquery.scrollto',
+9 verbose parsed url   href: 'jquery.scrollto' }
+10 silly lockFile cd8bd86b-jquery-scrollto jquery.scrollto
+11 verbose lock jquery.scrollto /home/vagrant/.npm/cd8bd86b-jquery-scrollto.lock
+12 silly lockFile cd8bd86b-jquery-scrollto jquery.scrollto
+13 silly lockFile cd8bd86b-jquery-scrollto jquery.scrollto
+14 verbose addNamed [ 'jquery.scrollto', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile fffe2e3a-jquery-scrollto jquery.scrollto@
+17 verbose lock jquery.scrollto@ /home/vagrant/.npm/fffe2e3a-jquery-scrollto.lock
+18 silly addNameRange { name: 'jquery.scrollto', range: '*', hasData: false }
+19 verbose url raw jquery.scrollto
+20 verbose url resolving [ 'https://registry.npmjs.org/', './jquery.scrollto' ]
+21 verbose url resolved https://registry.npmjs.org/jquery.scrollto
+22 info trying registry request attempt 1 at 20:19:20
+23 verbose etag "6TW5UUEEJDIDRJSU4A7V5THUG"
+24 http GET https://registry.npmjs.org/jquery.scrollto
+25 http 304 https://registry.npmjs.org/jquery.scrollto
+26 silly registry.get cb [ 304,
+26 silly registry.get   { date: 'Fri, 17 Oct 2014 20:19:21 GMT',
+26 silly registry.get     server: 'Apache',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     'last-modified': 'Fri, 17 Oct 2014 20:19:21 GMT',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     etag: '"6TW5UUEEJDIDRJSU4A7V5THUG"',
+26 silly registry.get     age: '15',
+26 silly registry.get     'x-served-by': 'cache-dfw1826-DFW',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '1',
+26 silly registry.get     'x-timer': 'S1413577161.730486,VS0,VE0',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'content-length': '0',
+26 silly registry.get     connection: 'close' } ]
+27 verbose etag jquery.scrollto from cache
+28 silly addNameRange number 2 { name: 'jquery.scrollto', range: '*', hasData: true }
+29 silly addNameRange versions [ 'jquery.scrollto', [ '1.4.13' ] ]
+30 verbose addNamed [ 'jquery.scrollto', '1.4.13' ]
+31 verbose addNamed [ '1.4.13', '1.4.13' ]
+32 silly lockFile 42cc37d0-jquery-scrollto-1-4-13 jquery.scrollto@1.4.13
+33 verbose lock jquery.scrollto@1.4.13 /home/vagrant/.npm/42cc37d0-jquery-scrollto-1-4-13.lock
+34 silly lockFile 42cc37d0-jquery-scrollto-1-4-13 jquery.scrollto@1.4.13
+35 silly lockFile 42cc37d0-jquery-scrollto-1-4-13 jquery.scrollto@1.4.13
+36 silly lockFile fffe2e3a-jquery-scrollto jquery.scrollto@
+37 silly lockFile fffe2e3a-jquery-scrollto jquery.scrollto@
+38 silly resolved [ { name: 'jquery.scrollto',
+38 silly resolved     version: '1.4.13',
+38 silly resolved     description: 'Easy element scrolling using jQuery.',
+38 silly resolved     homepage: 'https://github.com/flesler/jquery.scrollTo',
+38 silly resolved     main: 'jquery.scrollTo.js',
+38 silly resolved     ignore: [ '**/.*', 'demo', 'tests', 'changes.txt', 'composer.json' ],
+38 silly resolved     dependencies: { jquery: '>=1.8' },
+38 silly resolved     keywords:
+38 silly resolved      [ 'browser',
+38 silly resolved        'animated',
+38 silly resolved        'animation',
+38 silly resolved        'scrolling',
+38 silly resolved        'scroll',
+38 silly resolved        'links',
+38 silly resolved        'anchors' ],
+38 silly resolved     author: { name: 'Ariel Flesler', url: 'http://flesler.blogspot.com/' },
+38 silly resolved     _id: 'jquery.scrollto@1.4.13',
+38 silly resolved     _shasum: 'e6cfc9decb0aecbc611939d251216817f131475f',
+38 silly resolved     _from: 'jquery.scrollto@',
+38 silly resolved     _npmVersion: '1.4.9',
+38 silly resolved     _npmUser: { name: 'flesler', email: 'aflesler@gmail.com' },
+38 silly resolved     maintainers: [ [Object] ],
+38 silly resolved     dist:
+38 silly resolved      { shasum: 'e6cfc9decb0aecbc611939d251216817f131475f',
+38 silly resolved        tarball: 'http://registry.npmjs.org/jquery.scrollto/-/jquery.scrollto-1.4.13.tgz' },
+38 silly resolved     directories: {},
+38 silly resolved     _resolved: 'https://registry.npmjs.org/jquery.scrollto/-/jquery.scrollto-1.4.13.tgz',
+38 silly resolved     readme: 'ERROR: No README data found!' } ]
+39 info install jquery.scrollto@1.4.13 into /var/www/childrens-hospital.dev
+40 info installOne jquery.scrollto@1.4.13
+41 info /var/www/childrens-hospital.dev/node_modules/jquery.scrollto unbuild
+42 info preuninstall jquery.scrollto@1.4.13
+43 info uninstall jquery.scrollto@1.4.13
+44 verbose true,/var/www/childrens-hospital.dev/node_modules,/var/www/childrens-hospital.dev/node_modules unbuild jquery.scrollto@1.4.13
+45 info postuninstall jquery.scrollto@1.4.13
+46 verbose tar unpack /home/vagrant/.npm/jquery.scrollto/1.4.13/package.tgz
+47 silly lockFile f0028ef5-dev-node-modules-jquery-scrollto tar:///var/www/childrens-hospital.dev/node_modules/jquery.scrollto
+48 verbose lock tar:///var/www/childrens-hospital.dev/node_modules/jquery.scrollto /home/vagrant/.npm/f0028ef5-dev-node-modules-jquery-scrollto.lock
+49 silly lockFile 8df1add8-uery-scrollto-1-4-13-package-tgz tar:///home/vagrant/.npm/jquery.scrollto/1.4.13/package.tgz
+50 verbose lock tar:///home/vagrant/.npm/jquery.scrollto/1.4.13/package.tgz /home/vagrant/.npm/8df1add8-uery-scrollto-1-4-13-package-tgz.lock
+51 silly gunzTarPerm modes [ '755', '644' ]
+52 silly gunzTarPerm extractEntry package.json
+53 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+54 silly gunzTarPerm extractEntry .npmignore
+55 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+56 silly gunzTarPerm extractEntry README.md
+57 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+58 error Error: EPERM, chown '/var/www/childrens-hospital.dev/node_modules/jquery.scrollto/package.json'
+58 error     at Error (native)
+58 error  { [Error: EPERM, chown '/var/www/childrens-hospital.dev/node_modules/jquery.scrollto/package.json']
+58 error   stack: 'Error: EPERM, chown \'/var/www/childrens-hospital.dev/node_modules/jquery.scrollto/package.json\'\n    at Error (native)',
+58 error   errno: -1,
+58 error   code: 'EPERM',
+58 error   path: '/var/www/childrens-hospital.dev/node_modules/jquery.scrollto/package.json',
+58 error   fstream_finish_call: 'chown',
+58 error   fstream_type: 'File',
+58 error   fstream_path: '/var/www/childrens-hospital.dev/node_modules/jquery.scrollto/package.json',
+58 error   fstream_class: 'FileWriter',
+58 error   fstream_stack:
+58 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/writer.js:305:19',
+58 error      '/usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:133:7',
+58 error      'Object.oncomplete (fs.js:93:15)' ] }
+59 error Please try running this command again as root/Administrator.
+60 error System Linux 3.2.0-23-generic
+61 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "jquery.scrollto"
+62 error cwd /var/www/childrens-hospital.dev
+63 error node -v v0.11.14-pre
+64 error npm -v 1.4.14
+65 error path /var/www/childrens-hospital.dev/node_modules/jquery.scrollto/package.json
+66 error fstream_path /var/www/childrens-hospital.dev/node_modules/jquery.scrollto/package.json
+67 error fstream_type File
+68 error fstream_class FileWriter
+69 error fstream_finish_call chown
+70 error code EPERM
+71 error errno -1
+72 error stack Error: EPERM, chown '/var/www/childrens-hospital.dev/node_modules/jquery.scrollto/package.json'
+72 error stack     at Error (native)
+73 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/writer.js:305:19
+73 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:133:7
+73 error fstream_stack Object.oncomplete (fs.js:93:15)
+74 verbose exit [ -1, true ]

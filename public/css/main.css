@@ -1,0 +1,376 @@
+/*=============================================
+* Compass, resets, normalize...
+=============================================*/
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222; }
+
+html {
+  font-size: 1em;
+  line-height: 1.4; }
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+audio,
+canvas,
+img,
+video {
+  vertical-align: middle; }
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+textarea {
+  resize: vertical; }
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important; }
+
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: ""; }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  thead {
+    display: table-header-group; }
+
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  img {
+    max-width: 100% !important; }
+
+  @page {
+    margin: 0.5cm; }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2,
+  h3 {
+    page-break-after: avoid; } }
+/*=============================================
+* Generic Styles
+=============================================*/
+/*=============================================
+* DOM Styles
+=============================================*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 0px; }
+
+body {
+  font: 400 16px/24px "proxima_nova", "Helvetica", Arial, sans-serif;
+  font-size: 16px;
+  background-size: contain;
+  margin: 0;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none; }
+
+p {
+  line-height: 1.75em; }
+
+a {
+  text-decoration: none;
+  color: #60a68c; }
+  a:hover {
+    text-decoration: underline;
+    color: #594642; }
+
+img {
+  max-width: 100%; }
+
+h1 {
+  font-size: 48px;
+  font-family: "proxima_nova", "Helvetica", Arial, sans-serif;
+  color: #fff; }
+
+h2 {
+  font-size: 32px;
+  font-family: "proxima_nova", "Helvetica", Arial, sans-serif; }
+
+h3 {
+  font-size: 24px;
+  font-family: "proxima_nova", "Helvetica", Arial, sans-serif;
+  color: #fff; }
+
+h4 {
+  font-size: 20px;
+  font-family: "proxima_nova", "Helvetica", Arial, sans-serif;
+  color: #fff; }
+
+h5 {
+  font-size: 18px;
+  font-family: "proxima_nova", "Helvetica", Arial, sans-serif; }
+
+h6 {
+  font-size: 16px;
+  font-family: "proxima_nova", "Helvetica", Arial, sans-serif; }
+
+ul {
+  list-style: none; }
+
+ul.disc {
+  list-style-type: disc; }
+
+form input[type=text] {
+  font-family: "proxima_nova";
+  color: #4d7a8c;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  box-shadow: none;
+  border: 1px solid;
+  padding: 0.5em;
+  width: 100%; }
+  form input[type=text]::-webkit-input-placeholder {
+    color: #4d7a8c; }
+  form input[type=text]:-moz-placeholder {
+    color: #4d7a8c; }
+  form input[type=text]::-moz-placeholder {
+    color: #4d7a8c; }
+  form input[type=text]:-ms-input-placeholder {
+    color: #4d7a8c; }
+form button {
+  background-color: #4d7a8c;
+  border: 1px solid #4d7a8c;
+  width: 85%;
+  font-family: "proxima";
+  color: white;
+  font-size: 14px;
+  border-radius: 12px;
+  padding: 0.5em;
+  margin-top: 0.9em; }
+  form button:hover {
+    background: #fff;
+    color: #4d7a8c; }
+
+/*=============================================
+* GENERAL CLASSES
+=============================================*/
+.max_wrapper {
+  min-width: 80%;
+  max-width: 1300px;
+  margin: 0 auto;
+  z-index: 5; }
+
+.page_wrapper {
+  min-width: 80%;
+  max-width: 1000px;
+  margin: 0 auto !important; }
+
+.wrapper {
+  width: 950px;
+  max-width: 95%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.float_left {
+  float: left; }
+
+.float_right {
+  float: right; }
+
+.desktop {
+  display: initial; }
+
+.mobile {
+  display: none; }
+
+.non_mobile {
+  display: initial; }
+
+.inline_block {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline; }
+
+.block {
+  display: block; }
+
+.clearfix {
+  clear: both; }
+
+.margin_zero {
+  margin: 0; }
+
+.top {
+  vertical-align: top; }
+
+.center {
+  text-align: center; }
+
+.buffer {
+  padding: 1em; }
+
+.padding_top {
+  padding-top: 1em !important; }
+
+.padding_top_md {
+  padding-top: 2em !important; }
+
+.padding_left {
+  padding-left: 1em; }
+
+.hidden {
+  display: none; }
+
+.justify {
+  text-align: justify; }
+
+#html5-watermark {
+  display: none !important; }
+
+.html5gallery div div div div a div {
+  display: none !important; }
+
+/*=============================================
+* FONT CLASSES
+=============================================*/
+.text_left {
+  text-align: left !important; }
+
+.text_right {
+  text-align: right; }
+
+.text_center {
+  text-align: center; }
+
+.text_white {
+  color: #ebf2f2; }
+
+.text_blue {
+  color: #4d7a8c; }
+
+.text_red {
+  color: #bf4c41; }
+
+.text_brown {
+  color: #594642; }
+
+.text_green {
+  color: #60a68c; }
+
+.bold {
+  font-weight: bold; }
+
+.red_bg {
+  background-color: #bf4c41; }
+
+.blue_bg {
+  background-color: #4d7a8c; }
+
+.green_bg {
+  background-color: #60a68c; }
+
+.brown_bg {
+  background-color: #594642; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.camelcase {
+  text-transform: capitalize; }
+
+/*=============================================
+* Specific Page Styles
+=============================================*/
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; }
+  header #registration {
+    padding: 2em; }
+    header #registration a {
+      margin: 0 1em; }
+
+.home #hero {
+  height: 650px;
+  overflow-x: hidden; }
+  .home #hero img {
+    height: 650px;
+    width: 100% !important; }
+.home .slogan {
+  position: relative;
+  top: -33em;
+  margin-bottom: -25em; }
+  .home .slogan div {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center; }
+    .home .slogan div h2 {
+      font-size: 76px;
+      line-height: 1em; }

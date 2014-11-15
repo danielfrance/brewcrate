@@ -1,0 +1,158 @@
+@import "variables";
+@import "compass";
+
+/*=============================================
+* DOM Styles
+=============================================*/
+* {
+	@include box-sizing(border-box);
+	outline: 0px;
+}
+body {
+	font: 400 16px/24px $proxima;
+	font-size: 16px;
+	background-size: contain;
+	margin:0;
+	// max-width: 1600px;
+	@include transition(none);
+}
+p{line-height:1.75em}
+a{
+	text-decoration:none;
+	color:$green;
+	&:hover{text-decoration:underline; color:$brown}
+}
+
+img {max-width: 100%; }
+h1{
+	font-size:48px;
+	font-family:$proxima;
+	color:#fff;
+	
+}
+h2{
+	font-size: 32px;
+	font-family:$proxima;
+	
+}
+h3{
+	font-size: 24px;
+	font-family:$proxima;
+	color:#fff;
+
+}
+h4{
+	font-size: 20px;
+	font-family:$proxima;
+	color:#fff;
+}
+h5{
+	font-size: 18px;
+	font-family:$proxima;
+}
+h6{
+	font-size: 16px;
+	font-family:$proxima;
+}
+ul{
+	list-style:none;
+}
+
+ul.disc{
+	list-style-type: disc;
+}
+
+form{
+			input[type=text]{
+				font-family: "proxima_nova";
+				color: $blue;
+				font-size: 14px;
+				background-color: #f2f2f2;
+				box-shadow: none;
+				border: 1px solid;
+				padding: 0.5em;
+				width: 100%;
+				&::-webkit-input-placeholder{color:$blue;}
+				&:-moz-placeholder {color: $blue;}
+				&::-moz-placeholder {color: $blue;}
+				&:-ms-input-placeholder {color: $blue;}
+			}
+
+			button{
+				background-color: $blue;
+				border: 1px solid $blue;
+				width: 85%;
+				font-family: "proxima";
+				color: white;
+				font-size: 14px;
+				border-radius: 12px;
+				padding: 0.5em;
+				margin-top:0.9em;
+				&:hover{
+					background:#fff;
+					color:$blue;
+				}
+			}
+		}
+/*=============================================
+* GENERAL CLASSES
+=============================================*/
+.max_wrapper {
+	min-width: 80%;
+	max-width:1300px;
+	margin: 0 auto;
+	z-index: 5;
+}
+
+.page_wrapper{
+	min-width:80%;
+	max-width:1000px;
+	margin: 0 auto !important;
+	@media screen and (min-width:1800px){
+		// margin: 0 0 0 -10em;
+	}
+}
+
+.wrapper {
+	width: 950px;
+	max-width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.float_left { float: left; }
+.float_right { float: right; }
+.desktop { display: initial;}
+.mobile { display: none; }
+.non_mobile { display: initial;}
+.inline_block {@include inline_block;}
+.block{display:block;}
+.clearfix{clear:both}
+.margin_zero{margin:0}
+.top{vertical-align:top;}
+.center{text-align:center}
+.buffer{padding:1em;}
+.padding_top{padding-top:1em !important}
+.padding_top_md{padding-top:2em !important}
+.padding_left{padding-left:1em}
+.hidden{display:none}
+.justify{text-align:justify}
+#html5-watermark{display:none !important;}
+.html5gallery{div{div{div{div{a{div{display:none !important;}}}}}}}
+/*=============================================
+* FONT CLASSES
+=============================================*/
+.text_left { text-align: left !important; }
+.text_right { text-align: right; }
+.text_center { text-align: center; }
+.text_white { color: $white; }
+.text_blue{color:$blue}
+.text_red{color:$red}
+.text_brown{color:$brown}
+.text_green{color:$green}
+.bold { font-weight: bold; }
+.red_bg { background-color: $red; }
+.blue_bg { background-color: $blue; }
+.green_bg { background-color: $green; }
+.brown_bg { background-color: $brown; }
+.uppercase { text-transform: uppercase; }
+.camelcase {text-transform: capitalize;}

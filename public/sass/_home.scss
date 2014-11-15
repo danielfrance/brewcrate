@@ -1,0 +1,26 @@
+@import "variables";
+
+.home{
+	#hero{
+		height:650px;
+		overflow-x:hidden;
+		img{
+			height:650px;
+			width:100% !important;
+		}
+	}
+	.slogan{
+		position: relative;
+		top:-33em;
+		margin-bottom:-25em;
+		div{
+			width: 40%;
+			margin: 0 auto;
+			text-align:center;
+			h2{
+				font-size: 76px;
+				line-height:1em;
+			}
+		}
+	}
+}
