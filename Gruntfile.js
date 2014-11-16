@@ -7,8 +7,8 @@ module.exports = function(grunt) {
     compass: {              // Task
       dit: {                // Target
         options: {          // Target options
-          sassDir: 'public/sass',
-          cssDir: 'public/css',
+          sassDir: 'public_html/sass',
+          cssDir: 'public_html/css',
           environment: 'production',
           outputStyle: 'nested',
           watch:true
@@ -16,14 +16,14 @@ module.exports = function(grunt) {
       },
       dev: {              // Another target
         options: {
-          sassDir: 'public/sass',
-          cssDir: 'public/css'
+          sassDir: 'public_html/sass',
+          cssDir: 'public_html/css'
         }
       }
     },
 
     jshint: {
-      all: ['Gruntfile.js', 'public/js/*.js']
+      all: ['Gruntfile.js', 'public_html/js/*.js']
     },
 
     imagemin: {                          // Task
@@ -34,9 +34,9 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,                 // Enable dynamic expansion
-          cwd: 'public/images/',       // Src matches are relative to this path
+          cwd: 'public_html/images/',       // Src matches are relative to this path
           src: ['*.{png,jpg,gif}'],   // Actual patterns to match
-          dest: 'public/images/opt/'                  // Destination path prefix
+          dest: 'public_html/images/opt/'                  // Destination path prefix
         }]
       }
     },
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
         },
         your_target: {
           files: {
-            'public/css': ['public/css/main.css']
+            'public_html/css': ['public_html/css/main.css']
           }
         }
       }

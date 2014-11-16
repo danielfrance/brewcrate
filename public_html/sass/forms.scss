@@ -1,0 +1,48 @@
+@import "variables";
+
+form{
+		text-align:center;
+			input[type=text]{
+				font-family: $proxima !important;
+				font-size: 14px !important;	
+				box-shadow: none !important;
+				border-radius: 0 !important;
+				&::-webkit-input-placeholder{color:#abaeba !important;}
+				&:-moz-placeholder {color: #abaeba !important;}
+				&::-moz-placeholder {color: #abaeba !important;}
+				&:-ms-input-placeholder {color: #abaeba !important;}
+				&:focus{color:$blue !important;border: 1px solid $blue !important;}
+			}
+		input[type=submit]{
+				background-color: $brown;
+				border: 1px solid $white;
+				font-family: $proxima;
+				color: white;
+				font-size: 14px;
+				width: initial;
+				border-radius: 0px;
+				padding: 1em 4em;
+				margin-top:0.9em;
+				-webkit-appearance:none;
+				&:hover{
+					background:$blue;
+					color:$white;
+				}
+			}
+}
+	input[type=submit]{
+				background-color: $brown;
+				border: 1px solid $white;
+				font-family: $proxima;
+				color: white;
+				font-size: 14px;
+				width: initial;
+				border-radius: 0px;
+				padding: 1em 4em;
+				margin-top:0.9em;
+				-webkit-appearance:none;
+				&:hover{
+					background:$blue;
+					color:$white;
+				}
+			}

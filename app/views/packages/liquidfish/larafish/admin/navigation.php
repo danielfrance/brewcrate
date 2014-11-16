@@ -1,4 +1,4 @@
-<div class="ui small menu">
+<div class="ui small menu" style="padding-top:10em;">
 		<div class="ui simple dropdown link item ">
 			<i class="users icon"></i> Users <i class="dropdown icon"></i>
 			<div class="menu">

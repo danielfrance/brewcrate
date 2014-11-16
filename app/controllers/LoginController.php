@@ -1,6 +1,6 @@
 <?php 
 
-class LoginController extends Liquidfish\Larafish\Page\BaseController {
+class LoginController extends BaseController {
 
 	public function getIndex()
 	{
@@ -22,11 +22,11 @@ class LoginController extends Liquidfish\Larafish\Page\BaseController {
 	    }
 	}
 	
-	public function getLogout()
+	public function logout()
 	{
-        \Auth::logout();
-        \Session::flush();
-        return \Redirect::route('home');
+        Auth::logout();
+        Session::flush();
+        return Redirect::to('/');
 	}
 
 }

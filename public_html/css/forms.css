@@ -1,0 +1,47 @@
+form {
+  text-align: center; }
+  form input[type=text] {
+    font-family: "proxima_nova", "Helvetica", Arial, sans-serif !important;
+    font-size: 14px !important;
+    box-shadow: none !important;
+    border-radius: 0 !important; }
+    form input[type=text]::-webkit-input-placeholder {
+      color: #abaeba !important; }
+    form input[type=text]:-moz-placeholder {
+      color: #abaeba !important; }
+    form input[type=text]::-moz-placeholder {
+      color: #abaeba !important; }
+    form input[type=text]:-ms-input-placeholder {
+      color: #abaeba !important; }
+    form input[type=text]:focus {
+      color: #4d7a8c !important;
+      border: 1px solid #4d7a8c !important; }
+  form input[type=submit] {
+    background-color: #594642;
+    border: 1px solid #ebf2f2;
+    font-family: "proxima_nova", "Helvetica", Arial, sans-serif;
+    color: white;
+    font-size: 14px;
+    width: initial;
+    border-radius: 0px;
+    padding: 1em 4em;
+    margin-top: 0.9em;
+    -webkit-appearance: none; }
+    form input[type=submit]:hover {
+      background: #4d7a8c;
+      color: #ebf2f2; }
+
+input[type=submit] {
+  background-color: #594642;
+  border: 1px solid #ebf2f2;
+  font-family: "proxima_nova", "Helvetica", Arial, sans-serif;
+  color: white;
+  font-size: 14px;
+  width: initial;
+  border-radius: 0px;
+  padding: 1em 4em;
+  margin-top: 0.9em;
+  -webkit-appearance: none; }
+  input[type=submit]:hover {
+    background: #4d7a8c;
+    color: #ebf2f2; }

@@ -14,7 +14,6 @@
 ClassLoader::addDirectories(array(
 
 	app_path().'/commands',
-	app_path().'/composers',
 	app_path().'/controllers',
 	app_path().'/models',
 	app_path().'/database/seeds',
@@ -52,11 +51,6 @@ App::error(function(Exception $exception, $code)
 	Log::error($exception);
 });
 
-App::error(function(\Illuminate\Database\Eloquent\ModelNotFoundException $exception, $code)
-{
-	return Liquidfish\Larafish\Error\NotFound::showError();
-});
-
 /*
 |--------------------------------------------------------------------------
 | Maintenance Mode Handler
@@ -85,5 +79,3 @@ App::down(function()
 */
 
 require app_path().'/filters.php';
-
-require app_path().'/composers.php';

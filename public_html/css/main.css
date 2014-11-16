@@ -214,6 +214,10 @@ form button {
     background: #fff;
     color: #4d7a8c; }
 
+#page-content {
+  position: relative;
+  top: 5em; }
+
 /*=============================================
 * GENERAL CLASSES
 =============================================*/
@@ -225,7 +229,7 @@ form button {
 
 .page_wrapper {
   min-width: 80%;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto !important; }
 
 .wrapper {
@@ -257,6 +261,9 @@ form button {
   zoom: 1;
   *display: inline; }
 
+.inline {
+  display: inline; }
+
 .block {
   display: block; }
 
@@ -285,7 +292,7 @@ form button {
   padding-left: 1em; }
 
 .hidden {
-  display: none; }
+  display: none !important; }
 
 .justify {
   text-align: justify; }
@@ -306,7 +313,7 @@ form button {
   text-align: right; }
 
 .text_center {
-  text-align: center; }
+  text-align: center !important; }
 
 .text_white {
   color: #ebf2f2; }
@@ -344,6 +351,54 @@ form button {
 .camelcase {
   text-transform: capitalize; }
 
+form {
+  text-align: center; }
+  form input[type=text] {
+    font-family: "proxima_nova", "Helvetica", Arial, sans-serif !important;
+    font-size: 14px !important;
+    box-shadow: none !important;
+    border-radius: 0 !important; }
+    form input[type=text]::-webkit-input-placeholder {
+      color: #abaeba !important; }
+    form input[type=text]:-moz-placeholder {
+      color: #abaeba !important; }
+    form input[type=text]::-moz-placeholder {
+      color: #abaeba !important; }
+    form input[type=text]:-ms-input-placeholder {
+      color: #abaeba !important; }
+    form input[type=text]:focus {
+      color: #4d7a8c !important;
+      border: 1px solid #4d7a8c !important; }
+  form input[type=submit] {
+    background-color: #594642;
+    border: 1px solid #ebf2f2;
+    font-family: "proxima_nova", "Helvetica", Arial, sans-serif;
+    color: white;
+    font-size: 14px;
+    width: initial;
+    border-radius: 0px;
+    padding: 1em 4em;
+    margin-top: 0.9em;
+    -webkit-appearance: none; }
+    form input[type=submit]:hover {
+      background: #4d7a8c;
+      color: #ebf2f2; }
+
+input[type=submit] {
+  background-color: #594642;
+  border: 1px solid #ebf2f2;
+  font-family: "proxima_nova", "Helvetica", Arial, sans-serif;
+  color: white;
+  font-size: 14px;
+  width: initial;
+  border-radius: 0px;
+  padding: 1em 4em;
+  margin-top: 0.9em;
+  -webkit-appearance: none; }
+  input[type=submit]:hover {
+    background: #4d7a8c;
+    color: #ebf2f2; }
+
 /*=============================================
 * Specific Page Styles
 =============================================*/
@@ -352,6 +407,11 @@ header {
   width: 100%;
   top: 0;
   z-index: 1000; }
+  header a {
+    text-decoration: none !important; }
+    header a:hover {
+      text-decoration: none !important;
+      color: #ebf2f2; }
   header #registration {
     padding: 2em; }
     header #registration a {
@@ -374,3 +434,60 @@ header {
     .home .slogan div h2 {
       font-size: 76px;
       line-height: 1em; }
+.home footer {
+  margin-bottom: -1em; }
+
+#signup .max_wrapper {
+  padding-bottom: 3em; }
+
+.beer_profile p {
+  font-size: 15px; }
+.beer_profile .max_wrapper .beer {
+  width: 50%;
+  margin: 0 auto; }
+  .beer_profile .max_wrapper .beer .image img {
+    margin: 0 auto; }
+  .beer_profile .max_wrapper .beer p {
+    font-size: 15px; }
+.beer_profile .max_wrapper ul {
+  padding-left: 0; }
+  .beer_profile .max_wrapper ul li {
+    font-size: 15px; }
+
+.listing {
+  line-height: 1.5em; }
+
+#profile header {
+  position: relative;
+  margin-top: -1em; }
+  #profile header #logo_container {
+    padding: 1em;
+    display: inline-block; }
+  #profile header .menu {
+    display: inline-block;
+    padding: 1em; }
+    #profile header .menu .item {
+      padding: 0 2em;
+      display: inline-block; }
+#profile #page-content {
+  top: 0; }
+#profile .past {
+  display: inline-block; }
+  #profile .past .past_beer .image img {
+    width: 200px;
+    height: 200px; }
+  #profile .past .past_beer .rating {
+    text-align: center; }
+    #profile .past .past_beer .rating h3 {
+      display: inline-block;
+      width: 45%; }
+    #profile .past .past_beer .rating .rating_sys {
+      display: block;
+      height: 1em;
+      width: 56%;
+      position: relative;
+      left: 3em; }
+#profile ul {
+  padding-left: 0.95em; }
+#profile footer {
+  margin-bottom: -1em; }

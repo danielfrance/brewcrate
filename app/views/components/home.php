@@ -5,7 +5,7 @@
 	
 	<div class="slogan">
 		<div>
-			<h2 class="text_white">CraftCrate brings your next favorite beer to you</h2>
+			<h2 class="text_white">BrewCrate brings your next favorite beer to you</h2>
 		</div>
 	</div>
 	<section class="buffer"></section>
@@ -16,7 +16,7 @@
 			<div>
 				<h2 class="text_brown text_center">What We Do</h2>
 				<br>
-				<p class="text_brown text_center">CraftCrate is a beer membership service that caters to your craft beer preferences.  Every month you will receive a package containing beers that based off your beer profile. Through our service we hope you discover great new beers and support craft breweries!</p>
+				<p class="text_brown text_center">BrewCrate is a beer membership service that caters to your craft beer preferences.  Every month you will receive a package containing beers that based off your beer profile. Through our service we hope you discover great new beers and support craft breweries!</p>
 			</div>
 			
 		</div>
@@ -65,7 +65,8 @@
 
 	</section>
 	<section class="buffer"></section>
-	<section class="red_bg">
+	<footer>
+		<section class="red_bg">
 		<div class="max_wrapper">
 			<div class="wrapper">
 				<div class='ui three column grid'>
@@ -109,4 +110,13 @@
 		</div>
 
 	</section>
+
+	</footer>
 </div>
+
+
+
+
+
+
+

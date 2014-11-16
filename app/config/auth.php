@@ -28,7 +28,7 @@ return array(
 	|
 	*/
 
-	'model' => 'Liquidfish\Larafish\Models\User',
+	'model' => 'User',
 
 	/*
 	|--------------------------------------------------------------------------

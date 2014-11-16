@@ -9,10 +9,13 @@
 * Generic Styles
 =============================================*/
 @import "generic";
-
+@import "forms";
 
 /*=============================================
 * Specific Page Styles
 =============================================*/
 @import "layout";
 @import "home";
+@import "signup";
+@import "beerprofile";
+@import "profile";

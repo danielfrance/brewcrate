@@ -1,0 +1,24 @@
+@import "variables";
+
+.beer_profile{
+	p{font-size: 15px;}
+		.max_wrapper{
+			.beer{
+				width: 50%;
+				margin: 0 auto;
+				.image{
+					img{margin: 0 auto;}
+					}
+				p{font-size:15px;}
+				}
+				ul{
+					padding-left:0;
+					li{font-size:15px;}
+				}
+		}
+
+		
+}
+.listing{
+	line-height:1.5em;
+}

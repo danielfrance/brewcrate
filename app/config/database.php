@@ -49,9 +49,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'brew_crate',
-			'username'  => 'admin',
-			'password'  => 'RedBr1ck7',
+			'database'  => 'brew_crate', //brewcrat_brew_crate
+			'username'  => 'admin', //brewcrat_admin
+			'password'  => 'RedBr1ck7', //p@ssw0rd
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

@@ -1,40 +1,25 @@
-# Larafish Starter Project
-This will get you set up a boilerplate Laravel project for use with the Larafish Framework package.
+## Laravel PHP Framework
 
-## Installation
+[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
+[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
+[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
-First, make sure you have this setup in your ```~/.bash_profile```
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
 
-```
-# Local dev settings
-export DB1_USER="root"
-export DB1_PASS="root"
-export DB1_HOST="localhost"
-export DB1_PORT=""
+Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
 
-# This function allows us to temporarily set up database for the current shell session
-function database {
-	if [ "$1" = "" ]
-	then
-		echo -e "${green}DB1_NAME =${nocolor} $DB1_NAME"
-	else
-		export DB1_NAME=$1
-		echo -e "${lightcyan}DB1_NAME set to ${nocolor}$1"
-	fi
-}
-export -f database
-```
+Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-Then you will need to ```source ~/.bash_profile``` to load the new environment exports (or open a new terminal window)
+## Official Documentation
 
-## Now, lets get started:
+Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
 
-* ```git clone git@bitbucket.org:liquidfish/larafish-starter.git your-domain-name.ext```
-* ```cd your-domain-name.ext```
-* ```rm -rf .git/```
-* ```git init```
-* ```composer install```
-* ```database your-db-name-here```
-* ```php artisan larafish:setup```
+### Contributing To Laravel
 
-You should be ready to rock!
+**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+
+### License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)

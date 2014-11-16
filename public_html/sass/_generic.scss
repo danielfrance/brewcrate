@@ -94,6 +94,14 @@ form{
 				}
 			}
 		}
+
+
+#page-content{
+	position: relative;
+	top: 5em;
+}
+
+
 /*=============================================
 * GENERAL CLASSES
 =============================================*/
@@ -106,7 +114,7 @@ form{
 
 .page_wrapper{
 	min-width:80%;
-	max-width:1000px;
+	max-width:1200px;
 	margin: 0 auto !important;
 	@media screen and (min-width:1800px){
 		// margin: 0 0 0 -10em;
@@ -135,7 +143,7 @@ form{
 .padding_top{padding-top:1em !important}
 .padding_top_md{padding-top:2em !important}
 .padding_left{padding-left:1em}
-.hidden{display:none}
+.hidden{display:none !important;}
 .justify{text-align:justify}
 #html5-watermark{display:none !important;}
 .html5gallery{div{div{div{div{a{div{display:none !important;}}}}}}}
@@ -144,7 +152,7 @@ form{
 =============================================*/
 .text_left { text-align: left !important; }
 .text_right { text-align: right; }
-.text_center { text-align: center; }
+.text_center { text-align: center !important;  }
 .text_white { color: $white; }
 .text_blue{color:$blue}
 .text_red{color:$red}

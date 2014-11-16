@@ -26,6 +26,6 @@ return array(
 	|
 	*/
 
-	'pagination' => 'larafish::pagination',
+	'pagination' => 'pagination::slider-3',
 
 );

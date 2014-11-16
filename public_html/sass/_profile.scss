@@ -1,0 +1,46 @@
+@import "variables";
+
+#profile{
+	header{
+		position:relative;
+		margin-top:-1em;
+		#logo_container{
+			padding:1em;
+			display:inline-block;
+		}
+		.menu{
+				display:inline-block;
+				padding: 1em;
+				.item{padding:0 2em; display:inline-block;}
+			}
+	}
+	#page-content{
+		top:0;
+	}
+
+	.past{
+		display: inline-block;
+		.past_beer{
+			.image{
+				img{width: 200px; height:200px;}
+			}
+			.rating{
+				text-align: center;
+				h3{display: inline-block;width:45%}
+				.rating_sys{
+					display: block;
+					height: 1em;
+					width: 56%;
+					position: relative;
+					left: 3em;
+				}
+			}
+		}
+	}
+	ul{
+		padding-left:0.95em;
+	}
+	footer{
+		margin-bottom: -1em;
+	}
+}
